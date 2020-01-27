@@ -31,4 +31,3 @@ def get_page
   
 
 
-Scraper.new.get_page

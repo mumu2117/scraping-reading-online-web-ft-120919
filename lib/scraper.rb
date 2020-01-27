@@ -5,7 +5,7 @@ require 'open-uri'
 html = open("https://flatironschool.com/")
 doc = Nokogiri :: HTML(html)
 
-puts doc
+
 
 
 require_relative './course.rb'

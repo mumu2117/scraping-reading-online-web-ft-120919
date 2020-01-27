@@ -10,8 +10,6 @@ doc.css(".headline-260IBN").text
 
 
 
-require_relative './course.rb'
-
 
 
 def get_page

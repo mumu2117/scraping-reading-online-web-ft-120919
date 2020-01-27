@@ -1,14 +1,16 @@
 require 'nokogiri'
 require 'open-uri'
-require 'pry'
+
 
 html = open("https://flatironschool.com/")
+doc = Nokogiri :: HTML(html)
+
+puts doc
+
 
 require_relative './course.rb'
 
-end
 
-end
 
 def get_page
     doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
